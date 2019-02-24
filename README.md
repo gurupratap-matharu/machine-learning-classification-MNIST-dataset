@@ -1,20 +1,20 @@
-Housing Price Prediction Using Regression
+Image Classification Using Stochastic Gradient Descent and KNeighborsClassifier
 ==========================
 
-![Learn Machine learning](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-regression/master/images/header.png)
+![Learn Machine learning](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/header.png)
 
-#### Color density map of housing districts in california
-![California Map](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-regression/master/images/california.png)
+#### Analysis of mis-interpreted digits
+![Misinterpreted 3s and 5s](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/misinterpreted_3s_and_5s.png)
 
-* A machine learning regression model that is trained on California Housing Prices dataset from the StatLib repository. 
-* We are doing supervised learning here and our aim is to do predictive analysis
+* A machine learning classification model that is trained on the MNIST images dataset from the ML data.org repository. 
+* We are doing supervised learning here and our aim is to do image classification and noise reduction 
 * During our journey we'll understand the important tools needed to develop a powerful ML model
-* Our aim is to play with tools like cross validation, GridSearchCV, Random Forests and Pipelines to reach our goal
-* We'll evaluate the performance of each of our model using RMSE and also tune hyper parameters to further optimize our model
+* Our aim is to play with tools like Stochastic Gradient Descent, KNeighbors classifier, confusion matrix, Precision, Recall, ROC curves, Area under ROC, cross validation and GridSearchCV to reach our goal.
+* We'll evaluate the performance of each of our classifier using Precision scores, Recall scores, and also tune hyper parameters to further optimize our model
 * We'll validate our predictions against our test dataset and conclude our learnings
 
-#### We will learn how to plot density maps
-![DensityMap](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-regression/master/images/densitymap.png)
+#### We will learn how to plot confusion matrix
+![Confusion Matrix](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/confusion_matrix.png)
 
 
 #### To do an end-to-end Machine Learning project we need to do the following steps
@@ -25,16 +25,25 @@ Housing Price Prediction Using Regression
 4. Pre-process the data to make it ready to feed to our ML model.
 5. Try various models and train them. Select one that we find best.
 6. Fine-tune our model by tuning hyper-parameters
-7. Present your solution to the team.
-8. Launch, monitor, and maintain your system.
+7. Present our solution to the team.
+8. Launch, monitor, and maintain our system.
 
-#### To get a better intuition we'll plot histograms of various attributes.
-![Histograms](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-regression/master/images/histograms.png)
+#### To optimize our classifier we'll plot Precision-Recall Vs Threshold curves.
+![Precision-Recall Vs Threshold](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/Precision_Recall_Vs_Threshold.png)
 
-#### To find hidden patterns we'll analyze correlations among different attributes of our dataset.
-![Correlations](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-regression/master/images/correlations.png)
+#### To find where our classifier is making mistakes we'll plot the confusion matrix to pin down the error 
+![Confusion Matrix](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/confusion_matrix.png)
+
+#### To compare the performance of our models we'll plot their ROC AUC
+![Roc curve](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/ROC_curve_SGD_vs_RandomForest.png)
 
 
+#### We will train a KNeighbors classifier to do noise reduction from corrputed images.
+![Roc curve](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/noisy_digit_example_plot.png)
+
+## Conclusion
+![Presentation](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/presentation.jpg)
+At the end of our project we'll be able to derive insights to present to our team. 
 # Installation
 
 First, you will need to install [git](https://git-scm.com/), if you don't have it already.
@@ -42,7 +51,7 @@ First, you will need to install [git](https://git-scm.com/), if you don't have i
 Next, clone this repository by opening a terminal and typing the following commands:
 
     $ cd $HOME  # or any other development directory you prefer
-    $ git clone https://github.com/gurupratap-matharu/machine-learning-regression
+    $ git clone https://github.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset
 
 
 If you are familiar with Python and you know how to install Python libraries, go ahead and install the libraries 
@@ -90,6 +99,3 @@ Great! We are all setup to do some data science and machine learning!
 
 I would like to thank Aurélien Géron and his wonderful book Machine Learning with ScikitLearn and TensorFlow. I highly recommend this book.
 
-## Conclusion
-![Skyline](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-regression/master/images/skyline.jpg)
-At the end of our project we'll be able to derive insights to present to our team. 
