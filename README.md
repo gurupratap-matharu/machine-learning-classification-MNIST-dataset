@@ -3,9 +3,6 @@ Image Classification Using Stochastic Gradient Descent and KNeighborsClassifier
 
 ![Learn Machine learning](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/header.png)
 
-#### Analysis of mis-interpreted digits
-![Misinterpreted 3s and 5s](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/misinterpreted_3s_and_5s.png)
-
 * A machine learning classification model that is trained on the MNIST images dataset from the ML data.org repository. 
 * We are doing supervised learning here and our aim is to do image classification and noise reduction 
 * During our journey we'll understand the important tools needed to develop a powerful ML model
@@ -13,11 +10,27 @@ Image Classification Using Stochastic Gradient Descent and KNeighborsClassifier
 * We'll evaluate the performance of each of our classifier using Precision scores, Recall scores, and also tune hyper parameters to further optimize our model
 * We'll validate our predictions against our test dataset and conclude our learnings
 
-#### We will learn how to plot confusion matrix
+
+#### 1. We'll learn how to analyz mis-interpreted digits
+![Misinterpreted 3s and 5s](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/misinterpreted_3s_and_5s.png)
+
+#### 2. To find where our classifier is making mistakes we'll plot the confusion matrix to pin down the error 
 ![Confusion Matrix](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/confusion_matrix.png)
 
+#### 3. To optimize our classifier we'll plot Precision-Recall Vs Threshold curves.
+![Precision-Recall Vs Threshold](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/Precision_Recall_Vs_Threshold.png)
 
-#### To do an end-to-end Machine Learning project we need to do the following steps
+#### 4. To compare the performance of our models we'll plot their ROC AUC
+![Roc curve](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/ROC_curve_SGD_vs_RandomForest.png)
+
+#### 5. We will train a KNeighbors classifier to do noise reduction from corrputed images.
+![Roc curve](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/noisy_digit_example_plot.png)
+
+## 6. Conclusion
+At the end of our project we'll be able to derive insights to present to our team. 
+![Presentation](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/presentation.jpg)
+
+## To do an end-to-end Machine Learning project we need to do the following steps
 
 1. Understand the requirements of the business.
 2. Acquire the dataset.
@@ -28,23 +41,8 @@ Image Classification Using Stochastic Gradient Descent and KNeighborsClassifier
 7. Present our solution to the team.
 8. Launch, monitor, and maintain our system.
 
-#### To optimize our classifier we'll plot Precision-Recall Vs Threshold curves.
-![Precision-Recall Vs Threshold](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/Precision_Recall_Vs_Threshold.png)
 
-#### To find where our classifier is making mistakes we'll plot the confusion matrix to pin down the error 
-![Confusion Matrix](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/confusion_matrix.png)
-
-#### To compare the performance of our models we'll plot their ROC AUC
-![Roc curve](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/ROC_curve_SGD_vs_RandomForest.png)
-
-
-#### We will train a KNeighbors classifier to do noise reduction from corrputed images.
-![Roc curve](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/noisy_digit_example_plot.png)
-
-## Conclusion
-![Presentation](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/presentation.jpg)
-At the end of our project we'll be able to derive insights to present to our team. 
-# Installation
+## Installation
 
 First, you will need to install [git](https://git-scm.com/), if you don't have it already.
 
