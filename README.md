@@ -13,7 +13,7 @@ Image Classification Using Stochastic Gradient Descent and KNeighborsClassifier
 * We'll validate our predictions against our test dataset and conclude our learnings
 
 
-### 1. We'll learn how to analyz mis-interpreted digits
+### 1. We'll learn how to analyze mis-interpreted digits
 ![Misinterpreted 3s and 5s](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/misinterpreted_3s_and_5s.png)
 
 ### 2. To find where our classifier is making mistakes we'll plot the confusion matrix to pin down the error 
@@ -30,6 +30,7 @@ Image Classification Using Stochastic Gradient Descent and KNeighborsClassifier
 
 ### 6. Conclusion
 At the end of our project we'll be able to derive insights to present to our team. 
+
 ![Presentation](https://raw.githubusercontent.com/gurupratap-matharu/machine-learning-classification-MNIST-dataset/master/images/presentation.jpg)
 
 ## To do an end-to-end Machine Learning project we need to do the following steps
